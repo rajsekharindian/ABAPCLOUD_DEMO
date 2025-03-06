@@ -1,0 +1,217 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Applid'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Applid'
+annotate view ZC_TABAPCLOUDDEMO1 with
+{
+  @EndUserText.label: 'Applid'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'Applid'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Applid'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Applid;
+  
+  @EndUserText.label: 'Ssnid'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Ssnid'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Ssnid'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Ssnid;
+  
+  @EndUserText.label: 'Appltype'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Appltype'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Appltype'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Appltype;
+  
+  @EndUserText.label: 'Applfullname'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Applfullname'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Applfullname'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Applfullname;
+  
+  @EndUserText.label: 'Applfirstname'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Applfirstname'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Applfirstname'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Applfirstname;
+  
+  @EndUserText.label: 'Appllastname'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Appllastname'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Appllastname'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Appllastname;
+  
+  @EndUserText.label: 'Applcity'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Applcity'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Applcity'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Applcity;
+  
+  @EndUserText.label: 'Applpostal'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'Applpostal'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'Applpostal'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  Applpostal;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  Attachment;
+  
+  @EndUserText.label: 'Mimetype'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'Mimetype'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'Mimetype'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  Mimetype;
+  
+  @EndUserText.label: 'Filename'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Filename'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Filename'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Filename;
+  
+  @UI.identification: [ {
+    position: 120 
+  } ]
+  @UI.lineItem: [ {
+    position: 120 
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 130 
+  } ]
+  @UI.lineItem: [ {
+    position: 130 
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 140 
+  } ]
+  @UI.lineItem: [ {
+    position: 140 
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  LastChangedAt;
+}

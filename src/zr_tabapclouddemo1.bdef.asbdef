@@ -1,0 +1,59 @@
+managed implementation in class ZBP_R_TABAPCLOUDDEMO1 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_TABAPCLOUDDEMO1 alias ZrTabapclouddemo1
+persistent table ZTABAPCLOUDDEMO1
+draft table ZTBPCLOUDDEMO1_D
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Applid,
+   Ssnid,
+   Appltype;
+
+  field ( readonly )
+   CreatedBy,
+   CreatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+  field ( readonly : update )
+   Applid,
+   Ssnid,
+   Appltype;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZTABAPCLOUDDEMO1
+  {
+    Applid = applid;
+    Ssnid = ssnid;
+    Appltype = appltype;
+    Applfullname = applfullname;
+    Applfirstname = applfirstname;
+    Appllastname = appllastname;
+    Applcity = applcity;
+    Applpostal = applpostal;
+    Attachment = attachment;
+    Mimetype = mimetype;
+    Filename = filename;
+    CreatedBy = created_by;
+    CreatedAt = created_at;
+    LocalLastChangedBy = local_last_changed_by;
+    LocalLastChangedAt = local_last_changed_at;
+    LastChangedAt = last_changed_at;
+  }
+}

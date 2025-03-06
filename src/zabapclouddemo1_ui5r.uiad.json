@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "abap cloud demo 1",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "abapclouddemo1"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_291AA19031C3433B9F7EFEBBCE8E32C96160F43E_TM",
+    "semanticObject": "abapclouddemo1",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_291AA19031C3433B9F7EFEBBCE8E32C96160F43E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "abap cloud demo 1"
+      }
+    }
+  ]
+}
